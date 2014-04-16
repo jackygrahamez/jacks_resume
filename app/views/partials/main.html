@@ -1,0 +1,15 @@
+<div ng-include="'partials/navbar'"></div>
+
+<div class="jumbotron pull-right"></div>
+
+<div class="row marketing">
+  <div class="{{thing.header}}" ng-repeat="thing in awesomeThings">
+      <h4 ng-class="{{thing.header}}">{{thing.title}}</h4>
+      <h4 ng-class="{{thing.header}}">{{thing.name}}</h4>
+      <p>{{thing.info}}</p>
+  </div>
+</div>
+
+<div class="footer">
+  <p>♥ kudos to the Yeoman team</p>
+</div>
