@@ -1,0 +1,11 @@
+{
+    "name": "jacksResume",
+    "description": "A Resume for Mr. Jack Shultz",
+    "version": "0.0.0",
+    "url": "https://github.com/Jack/jacksResume",
+    "options": {
+        "paths": ".",
+        "outdir": "yuidocs/backend",
+        "exclude": "node_modules,public,src"
+    }
+}
